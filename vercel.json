@@ -1,1 +1,15 @@
 
+{
+  "version": 2,
+  "functions": {
+    "api/hashtags.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/hashtags",
+      "dest": "api/hashtags.py"
+    }
+  ]
+}
